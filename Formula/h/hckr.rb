@@ -8,7 +8,6 @@ class Hckr < Formula
   license "MIT"
 
   depends_on "python@3.8"
-  depends_on "rust"  # Required for building cryptography
 
   def install
     venv = virtualenv_create(libexec, "python3.8")
