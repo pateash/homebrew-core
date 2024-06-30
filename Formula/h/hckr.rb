@@ -3,21 +3,21 @@ class Hckr < Formula
 
   desc "hckr - Awesome CLI for developers"
   homepage "https://pypi.org/project/hckr/"
-  url "https://files.pythonhosted.org/packages/source/h/hckr/hckr-0.2.4.tar.gz"
-  sha256 "21d40e1275e05cf43a6cc0f6f72b15c378c1011fcc4f8577d3658c3a2221fbb9"
+  url "https://files.pythonhosted.org/packages/source/h/hckr/hckr-0.2.5.tar.gz"
+  sha256 "ec4fd367818f26a459bd98db04b49f985800a45716a1f1a5678a202e2aadcc80"
   license "MIT"
 
-  depends_on "python@3.8"
+  depends_on "python@3.12"
 
   def install
-    venv = virtualenv_create(libexec, "python3.8")
+    venv = virtualenv_create(libexec, "python3.12")
     venv.pip_install "pip"
-    venv.pip_install "packaging" # TODO: remove it in new releases
-    system libexec/"bin/pip", "install", "--verbose", "."  # Install package and dependencies
+    system libexec/"bin/pip", "install", "."
     bin.install_symlink libexec/"bin/hckr"
   end
 
   test do
-    system "#{bin}/hckr", "--version"
+    (testpath/"foo.txt").write("Nobody inspects the spammish repetition\n")
+    assert_match "SHA1: 55cd84c899a3d9f41d5a4d1be4ac57b37551db00", shell_output("#{bin}/hckr hash sha1 -f #{testpath}/foo.txt")
   end
 end
