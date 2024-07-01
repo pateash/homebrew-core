@@ -90,6 +90,7 @@ arjun
 arkade
 armadillo
 arp-scan
+arping
 arrayfire
 artillery
 arttime
@@ -134,6 +135,7 @@ aws-auth
 aws-cdk
 aws-elasticbeanstalk
 aws-es-proxy
+aws-iam-authenticator
 aws-nuke
 aws-rotate-key
 aws-sam-cli
@@ -362,6 +364,7 @@ checkstyle
 cherrytree
 chezmoi
 chibi-scheme
+chkbit
 chkrootkit
 choose-rust
 chroma
@@ -514,6 +517,7 @@ cyclonedx-gomod
 cyclonedx-python
 cycode
 cyctl
+cyme
 cypher-shell
 cyrus-sasl
 cython
@@ -684,6 +688,7 @@ editorconfig-checker
 efl
 efm-langserver
 eg-examples
+egctl
 eget
 ehco
 eigenpy
@@ -711,6 +716,7 @@ ensmallen
 entr
 envchain
 envd
+envelope
 envoy
 enzyme
 epic5
@@ -887,6 +893,7 @@ geoserver
 geph4
 getmail6
 gettext
+gexiv2
 gf
 gfold
 ggshield
@@ -950,6 +957,7 @@ gmic
 gmime
 gmsh
 gnmic
+gnu-apl
 gnu-getopt
 gnu-units
 gnumeric
@@ -1085,6 +1093,7 @@ hexyl
 hfstospell
 hickory-dns
 hidapi
+highlight
 highs
 himalaya
 hive
@@ -1140,7 +1149,9 @@ influxdb@1
 inform6
 inframap
 iniparser
+inko
 inlyne
+inspircd
 instaloader
 internetarchive
 inxi
@@ -1253,6 +1264,7 @@ kotlin
 kpcli
 krakend
 krew
+ksops
 ktfmt
 kube-linter
 kube-ps1
@@ -1275,6 +1287,7 @@ kubeshark
 kubespy
 kubevela
 kubevious
+kubevpn
 kubie
 kumactl
 kustomize
@@ -1286,6 +1299,7 @@ kwok
 kyma-cli
 kyverno
 lacework-cli
+lando-cli
 languagetool
 lanraragi
 lastpass-cli
@@ -1378,6 +1392,7 @@ libomp
 libopenmpt
 liboqs
 libpano
+libpeas
 libphonenumber
 libpipeline
 libplctag
@@ -1406,6 +1421,7 @@ libsoundio
 libspelling
 libsql
 libstrophe
+libtensorflow
 libtiff
 libtommath
 libtrace
@@ -1496,6 +1512,7 @@ mackup
 mactop
 mafft
 mage
+magic_enum
 magic-wormhole
 mailcatcher
 mailpit
@@ -1539,6 +1556,7 @@ mdbook
 mdless
 mdsh
 mdzk
+mediaconch
 mediamtx
 mednafen
 meilisearch
@@ -1628,12 +1646,14 @@ mtools
 mu
 muffet
 mujs
+multitail
 murex
 mutt
 mvnvm
 mvt
 mx
 mycli
+mycorrhiza
 mydumper
 mypy
 mysqltuner
@@ -1723,6 +1743,7 @@ oauth2_proxy
 oauth2c
 objfw
 ocaml-findlib
+ocamlbuild
 oci-cli
 ocicl
 ocm
@@ -1811,6 +1832,7 @@ osm2pgsql
 ospray
 osslsigncode
 osv-scanner
+otree
 ott
 overarch
 overmind
@@ -1912,6 +1934,7 @@ policy_sentry
 ponyc
 popeye
 portablegl
+porter
 postgis
 postgresql@12
 postgresql@13
@@ -2451,6 +2474,7 @@ trash-cli
 travis
 tree
 tree-sitter
+treefmt
 treefrog
 triangle
 trino
@@ -2466,6 +2490,7 @@ ttyd
 ttyplot
 tup
 twine
+txr
 tygo
 typescript
 typescript-language-server
@@ -2654,6 +2679,7 @@ yorkie
 yosys
 you-get
 youtubedr
+youtubeuploader
 yq
 yt-dlp
 yubico-piv-tool
